@@ -6,7 +6,7 @@ I use this script mainly for debugging Tuya BLE protocol for developing [redphx/
 - Enable global logging.
 - Enable Bluetooth logging.
 - Disable SSL pinning.
-- Support most apps using Tuya SDK: Tuya, Smart Life, Adaprox...
+- Support most apps using Tuya SDK: Tuya Smart, Smart Life, Adaprox Home...
 
 ## Requirements
 - A Rooted Android phone. I'm using a POCO F3.
