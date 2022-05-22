@@ -2,17 +2,17 @@
 
 I use this script mainly for debugging Tuya BLE protocol for developing [redphx/python-tuya-ble](https://github.com/redphx/python-tuya-ble).
 
-### Features
+## Features
 - Enable global logging.
 - Enable Bluetooth logging.
 - Disable SSL pinning.
 - Support most apps using Tuya SDK: Tuya, Smart Life, Adaprox...
 
-### Requirements
+## Requirements
 - A Rooted Android phone. I'm using a POCO F3.
 - Or you can use an Android Emulator. I tested wit [Genymotion](https://www.genymotion.com/) and it worked (you might not be able to control BLE devices with it without using a hub).
 
-### Preparation
+## Preparation
 1. Install the app you want to debug on your phone.
 
 3. Install [Frida CLI](https://frida.re/docs/installation/).  
@@ -25,7 +25,7 @@ I use this script mainly for debugging Tuya BLE protocol for developing [redphx/
 
 4. [Install frida-server](https://frida.re/docs/android/) on your rooted Android phone. Make sure you have Android's `adb` installed.
 
-### Usage:
+## Usage:
 
 1. Pair your PC/Mac/Linux with your phone using ADB.
 
@@ -42,7 +42,7 @@ I use this script mainly for debugging Tuya BLE protocol for developing [redphx/
 ![image](https://user-images.githubusercontent.com/96280/169678497-03d6a9c2-6edb-4ee0-866f-6019a35e6e7e.png)
 
 
-### Tested apps
+## Tested apps
 - Tuya Smart 4.0.2
 - Smart Life 4.0.2
 - Adaprox Home 4.2.00
